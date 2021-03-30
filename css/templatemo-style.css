@@ -116,8 +116,7 @@ p {
 #service,
 #experience,
 #research,
-#work,
-#contact {
+#work {
   position: relative;
 }
 
@@ -126,8 +125,7 @@ p {
 #experience .container,
 #service .container,
 #research .container,
-#work .container,
-#contact .container {
+#work .container {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -483,75 +481,6 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Contact section              
------------------------------------------*/
-
-#contact {
-  background: #E9724C;
-}
-
-#contact .contact-form,
-#contact .contact-thumb {
-  padding: 22px 32px 22px 32px;
-  min-height: 75vh;
-}
-
-#contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 75vh;
-}
-
-#contact .contact-info {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#contact .form-control:-ms-input-placeholder{color:#ffffff}
-#contact .form-control::-webkit-input-placeholder{color:#ffffff}
-
-#contact .form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #5c8041;
-  border-radius: 0px;
-  box-shadow: none;
-  color: #ffffff;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-bottom-color: #ffffff;
-}
-
-#contact input {
-  height: 45px;
-}
-
-#contact input[type="submit"] {
-  background: #ffffff;
-  border: 2px solid transparent;
-  border-radius: 40px;
-  color: #161616;
-  padding-bottom: 10px;
-}
-
-#contact input[type="submit"]:hover {
-  background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
-}
-
-#contact .fa {
-  padding-right: 10px;
-}
-
-
-
-/*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
@@ -639,8 +568,7 @@ footer {
   #experience .container,
   #service .container,
   #research .container,
-  #work .container,
-  #contact .container {
+  #work .container {
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -648,8 +576,7 @@ footer {
   #about .col-md-3,
   #experience .col-md-6,
   #research .col-md-6,
-  #work .col-md-6,
-  #contact .col-md-3 {
+  #work .col-md-6 {
     padding: 0;
     margin: 0;
   }

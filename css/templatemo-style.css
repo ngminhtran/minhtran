@@ -92,7 +92,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #5c8041;
   border-color: transparent;
   color: #ffffff;
 }
@@ -115,7 +115,7 @@ p {
 #about,
 #service,
 #experience,
-#education,
+#research,
 #work,
 #contact {
   position: relative;
@@ -125,7 +125,7 @@ p {
 #about .container, 
 #experience .container,
 #service .container,
-#education .container,
+#research .container,
 #work .container,
 #contact .container {
   width: 100%;
@@ -134,8 +134,8 @@ p {
 }
 
 #experience .experience-thumb,
-#work .education-thumb,
-#education .education-thumb  {
+#work .work-thumb,
+#research .research-thumb  {
   padding: 22px 42px 42px 42px;
 }
 
@@ -146,7 +146,7 @@ footer {
 }
 
 #experience,
-#education {
+#research {
   background: #E9724C;
 }
 
@@ -172,7 +172,7 @@ footer {
 }
 
 .color-yellow {
-  color: #E3AE57;
+  color: #5c8041;
 }
 
 .bg-yellow {
@@ -198,14 +198,14 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: #5c8041;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #E3AE57;
+  color: #5c8041;
   outline: none;
 }
 
@@ -259,7 +259,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid #5c8041;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -304,7 +304,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: #5c8041;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -314,7 +314,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: #5c8041;
 }
 
 .custom-navbar .navbar-toggle {
@@ -327,7 +327,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: #5c8041;
     border-color: transparent;
 }
 
@@ -419,30 +419,6 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Service section              
------------------------------------------*/
-
-#service {
-  background: #E9724C;
-}
-
-#service p {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-#service .service-thumb {
-  padding: 52px 22px 52px 22px;
-}
-
-#service .service-thumb .fa {
-  font-size: 42px;
-  padding-bottom: 22px;
-}
-
-
-
-/*---------------------------------------
     Experience section              
 -----------------------------------------*/
 
@@ -465,10 +441,10 @@ a:hover, a:active, a:focus {
 }
 
 /*---------------------------------------
-    Education section              
+    Research & Work section              
 -----------------------------------------*/
 
-#education {
+#research {
   background: #E3AE57;
 }
 
@@ -476,11 +452,7 @@ a:hover, a:active, a:focus {
   background: #e9734c63;
 }
 
-#education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
-}
-
-#education .media-heading {
+#research .media-heading {
   margin-bottom: 0px;
 }
 
@@ -488,7 +460,7 @@ a:hover, a:active, a:focus {
   margin-bottom: 0px;
 }
 
-#education .media .fa {
+#research .media .fa {
   font-size: 42px;
   margin-right: 14px;
 }
@@ -498,49 +470,16 @@ a:hover, a:active, a:focus {
   margin-right: 14px;
 }
 
+#research small {
+  color: #886D1E;
+  font-weight: bold;
+}
+
 #work small {
   color: #886D1E;
   font-weight: bold;
 }
 
-#education small {
-  color: #886D1E;
-  font-weight: bold;
-}
-
-
-
-/*---------------------------------------
-   Quotes section              
------------------------------------------*/
-
-#quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    position: relative;
-    padding: 100px 0px;
-}
-
-#quotes .overlay {
-    background: #121212;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    opacity: 0.7;
-}
-
-#quotes .fa {
-  font-size: 42px;
-  margin-top: 32px;
-  margin-bottom: 22px;
-}
-
-#quotes p {
-  padding-top: 32px;
-}
 
 
 /*---------------------------------------
@@ -574,7 +513,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid #5c8041;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -656,7 +595,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #5c8041;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
@@ -699,7 +638,7 @@ footer {
   #about .container, 
   #experience .container,
   #service .container,
-  #education .container,
+  #research .container,
   #work .container,
   #contact .container {
     padding-right: 15px;
@@ -708,7 +647,7 @@ footer {
 
   #about .col-md-3,
   #experience .col-md-6,
-  #education .col-md-6,
+  #research .col-md-6,
   #work .col-md-6,
   #contact .col-md-3 {
     padding: 0;
